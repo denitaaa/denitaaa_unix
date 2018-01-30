@@ -1,0 +1,8 @@
+Filter commmands
+1) head prints the first 9 names in the given list of the 15
+2)tail prints the last 10 names (from 6th) of the list
+3) cut-cutting sections from each l8ine of files and writing the results
+4)paste-pastes the list of names
+5)wc displays the number of lines,words and bytes
+6) sort-sorts the contents of a text file,line by line
+7)uniq-filtering repeated lines in a file
