@@ -1,0 +1,6 @@
+
+num=$(who -q )
+details=$(who -H)
+echo "The total number of users logged in : $num"
+echo "The details of logged-in users :\n$details"
+
