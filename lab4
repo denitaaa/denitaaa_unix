@@ -1,0 +1,48 @@
+1. Write a shell script to display only date and time from date command
+A. date +%r.+%d
+2. Write a shell script to check whether a number is +ve or -ve 
+A. echo "Enter the number"
+   read number
+   if test $number -gt 0
+   then
+        echo "its positive"
+   else
+        echo "negative"
+
+   fi
+3. Write a shell script to display a student"s grade
+A.  echo "Enter the number"
+    read number
+    if test $number -gt 0
+    then
+        echo "its positive"
+    else
+        echo "negative"
+
+    fi
+4. Sort only name field for CSEB.csv
+A. cut -d -f2 CSEB.csv| sort
+5.Replace Name with Student's Name
+A. cut -d -f2 CSEB.csv
+$tr "Student's Name" "Name" 
+
+OUTPUT:
+Q1) Sort only name field from CSE.csv
+-->  cut -d , -f 2 CSE.csv|sort
+Abxc
+Achal
+Gaurav
+Gaurav
+Hitesh
+Janardhan
+Kishor
+Name
+Pranav
+Rashid
+Sourav
+U4hrh
+YOGI
+Yogendhar
+Q2) Replace Name with student's Name
+--> cut -d , -f 2 CSE.csv | head -n 1 | tr ["Name"] ["Stud"] 
+Stud
