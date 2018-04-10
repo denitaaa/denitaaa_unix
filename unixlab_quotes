@@ -1,0 +1,4 @@
+quotes=("Work is worship" "Try and try ill u succeed" "Make hay while sunshines")
+quote=${quotes[$RANDOM % ${#quotes[@]}]}
+figlet $quote
+echo -e "\n"
